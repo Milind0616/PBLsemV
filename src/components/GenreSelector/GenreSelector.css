@@ -1,0 +1,41 @@
+.genre-selector {
+  text-align: center;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: transparent;
+  width: 100%;
+}
+
+.genre-selector h2 {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.genre-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px; /* Reduced gap between buttons */
+  justify-items: center;
+  width: calc(100% - 20px); /* Adjust width to fit within display */
+  max-width: 1200px;
+  margin: 0 auto;
+  height: auto; /* Ensure stable height */
+}
+
+.genre-button {
+  background-color: #e6e6e6;
+  border: 1px solid #e0e0e0;
+  border-radius: 20px;
+  padding: 5px 40px;
+  font-size: 1em;
+  cursor: pointer;
+  box-shadow: none;
+  text-align: center;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.genre-button:hover {
+  background-color: #f9f9f9;
+}

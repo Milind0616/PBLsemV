@@ -1,0 +1,88 @@
+/* Modern Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #f8fafc 60%, #e0e7ff 100%);
+  padding: 18px 36px;
+  box-shadow: 0 4px 16px rgba(80, 120, 255, 0.10);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: 900;
+  color: #4f8cff;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px rgba(80, 120, 255, 0.08);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.08em;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 8px;
+  transition: background 0.15s, color 0.15s;
+}
+.nav-links li a:hover {
+  background: #e0e7ff;
+  color: #4f8cff;
+}
+
+.auth-buttons {
+  margin-right: 30px;
+  display: flex;
+  gap: 10px;
+}
+
+.auth-buttons .login,
+.auth-buttons .signup {
+  background: #4f8cff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 18px;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+  box-shadow: 0 2px 8px rgba(80, 120, 255, 0.10);
+}
+.auth-buttons .login:hover,
+.auth-buttons .signup:hover {
+  background: #2563eb;
+}
+.user-greeting {
+  color: #4f8cff;
+  font-weight: 700;
+  font-size: 1.08em;
+  margin-right: 10px;
+}
+  background-color: #007bff;
+  color: white;
+  padding: 5px 15px;
+  font-size: 0.9em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.auth-buttons .signup {
+  background-color: #28a745;
+}
+
+ 
